@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:text="Scan License Barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scanButton" />
+    <TextView
+        android:text="Name: Unknown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name" />
+    <TextView
+        android:text="License Number:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/license" />
+    <TextView
+        android:text="Date of Birth:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dob" />
+    <TextView
+        android:text="Date Issued:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/issued" />
+    <TextView
+        android:text="Expires:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expires" />
+    <TextView
+        android:text="Address:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address" />
+    <TextView
+        android:text="Sex:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sex" />
+    <TextView
+        android:text="Weight:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wgt" />
+    <TextView
+        android:text="Height:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hgt" />
+</LinearLayout>
